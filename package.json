@@ -7,8 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
-    
+    "e2e": "ng e2e",
+    "deploy": "ng b --base-href https://Aalex118.github.io/angular-image-editor/ && npx ngh --dir=dist/angular-image-editor"
   },
   "private": true,
   "dependencies": {
